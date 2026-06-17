@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html-root">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,26 +7,25 @@
   <!-- SEO Meta Tags -->
   <title>Tamil Nadu Fiscal White Paper 2026 | Fiscal Management Analysis</title>
   <meta name="description" content="A comprehensive, evidence-based analysis of Tamil Nadu's public finances from 2021–26. Six key findings on debt, revenue deficit, tax collapse, and contingent liabilities." />
-  <meta name="keywords" content="Tamil Nadu White Paper 2026, Tamil Nadu fiscal management, TN debt crisis, GSDP, revenue deficit, Tamil Nadu Finance Department, public finances India" />
+  <meta name="keywords" content="Tamil Nadu White Paper 2026, Tamil Nadu fiscal management, TN debt crisis, GSDP, revenue deficit, Tamil Nadu Finance Department, public finances India, தமிழ்நாடு வெள்ளை அறிக்கை" />
   <meta name="author" content="Finance Department, Government of Tamil Nadu" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://yourusername.github.io/tn-fiscal-whitepaper-2026/" />
 
-  <!-- Open Graph / Social sharing -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tamil Nadu Fiscal White Paper 2026" />
   <meta property="og:description" content="Transparent, evidence-based account of Tamil Nadu's public finances 2021–26. Outstanding liabilities nearing ₹10 lakh crore. Six key fiscal findings." />
   <meta property="og:url" content="https://yourusername.github.io/tn-fiscal-whitepaper-2026/" />
   <meta property="og:image" content="https://yourusername.github.io/tn-fiscal-whitepaper-2026/author-photo.jpeg" />
-  <meta property="og:site_name" content="TN Fiscal White Paper 2026" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Tamil Nadu Fiscal White Paper 2026" />
-  <meta name="twitter:description" content="Six critical findings on TN's fiscal health. Debt doubled. Revenue deficit at historic high. Read the analysis." />
+  <meta name="twitter:description" content="Six critical findings on TN's fiscal health. Debt doubled. Revenue deficit at historic high." />
   <meta name="twitter:image" content="https://yourusername.github.io/tn-fiscal-whitepaper-2026/author-photo.jpeg" />
 
-  <!-- Structured Data / Schema.org -->
+  <!-- Schema.org -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -39,13 +38,23 @@
       "name": "Finance Department, Government of Tamil Nadu",
       "url": "https://www.tn.gov.in"
     },
-    "about": {
-      "@type": "Thing",
-      "name": "Tamil Nadu State Finances"
-    },
     "url": "https://yourusername.github.io/tn-fiscal-whitepaper-2026/"
   }
   </script>
+
+  <!-- Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'ta,en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false,
+        multilanguagePage: true
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,26 +68,47 @@
 </head>
 <body>
 
-  <!-- NAV -->
+  <!-- ===== AI DISCLAIMER BANNER ===== -->
+  <div class="ai-banner" id="aiBanner">
+    <div class="ai-banner-inner">
+      <span class="ai-icon">🤖</span>
+      <span class="ai-text">
+        <strong>AI-assisted analysis:</strong> This website was researched and built with the help of <strong>Claude AI</strong> by Anthropic.
+        AI can make mistakes — all figures should be verified against the
+        <a href="TN_White_Paper_English-2026.pdf" target="_blank">original White Paper PDF</a>.
+      </span>
+      <button class="ai-dismiss" onclick="document.getElementById('aiBanner').style.display='none'" aria-label="Dismiss">✕</button>
+    </div>
+  </div>
+
+  <!-- ===== NAV ===== -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
       <div class="nav-brand">
         <img src="tn-emblem.svg" alt="Tamil Nadu Government Emblem" class="nav-emblem" />
         <span class="nav-title">TN White Paper 2026</span>
       </div>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <div class="nav-right">
+        <!-- Google Translate Widget -->
+        <div class="translate-wrap">
+          <span class="translate-label">🌐</span>
+          <div id="google_translate_element"></div>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      </div>
       <ul class="nav-links" id="navLinks">
         <li><a href="#overview">Overview</a></li>
         <li><a href="#findings">Findings</a></li>
+        <li><a href="#tamil">தமிழில்</a></li>
         <li><a href="#data">Data</a></li>
-        <li><a href="#terms">Key Terms</a></li>
+        <li><a href="#terms">Glossary</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="TN_White_Paper_English-2026.pdf" class="nav-cta" target="_blank">Download PDF</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- ===== HERO ===== -->
   <header class="hero" id="hero">
     <div class="hero-bg-text" aria-hidden="true">₹10L CR</div>
     <div class="hero-content">
@@ -117,7 +147,7 @@
     <div class="hero-scroll-hint">scroll</div>
   </header>
 
-  <!-- OVERVIEW -->
+  <!-- ===== OVERVIEW ===== -->
   <section class="section overview" id="overview">
     <div class="container">
       <div class="section-eyebrow">The Big Picture</div>
@@ -144,7 +174,6 @@
           <p>Tamil Nadu is ageing faster than any other large state. Elderly share rises from 10.6% (2011) to 18.2% (2031). The window for fiscal correction from a position of demographic strength is closing.</p>
         </div>
       </div>
-
       <blockquote class="thirukkural">
         <p class="kural-tamil">"ஆகாறு அளவிட்டி தாயினுங் கேடில்லை — கோகாறு அகலாக் கடை"</p>
         <p class="kural-english">"No harm if income is narrow, if outgoings are not broad." — Thirukkural 478</p>
@@ -152,16 +181,15 @@
     </div>
   </section>
 
-  <!-- SIX FINDINGS -->
+  <!-- ===== SIX FINDINGS ===== -->
   <section class="section findings" id="findings">
     <div class="container">
       <div class="section-eyebrow">Core Analysis</div>
       <h2 class="section-title">Six principal findings</h2>
       <p class="section-desc">These are not independent observations — they are mutually reinforcing dimensions of a single, continuous deterioration.</p>
-
       <div class="findings-grid">
 
-        <article class="finding-card" data-finding="1">
+        <article class="finding-card">
           <div class="finding-num">01</div>
           <div class="finding-bar" style="--accent:#C0392B"></div>
           <h3>Debt has near-doubled</h3>
@@ -172,7 +200,7 @@
           </div>
         </article>
 
-        <article class="finding-card" data-finding="2">
+        <article class="finding-card">
           <div class="finding-num">02</div>
           <div class="finding-bar" style="--accent:#E67E22"></div>
           <h3>Interest now exceeds capex</h3>
@@ -183,7 +211,7 @@
           </div>
         </article>
 
-        <article class="finding-card" data-finding="3">
+        <article class="finding-card">
           <div class="finding-num">03</div>
           <div class="finding-bar" style="--accent:#8E44AD"></div>
           <h3>Revenue deficit is structural</h3>
@@ -194,29 +222,29 @@
           </div>
         </article>
 
-        <article class="finding-card" data-finding="4">
+        <article class="finding-card">
           <div class="finding-num">04</div>
           <div class="finding-bar" style="--accent:#16A085"></div>
           <h3>Own-tax effort has collapsed</h3>
-          <p>SoTR/GSDP fell from 5.93% to <strong>5.45%</strong> — the lowest in the state's history and the steepest decline among benchmarked states. Roughly <strong>₹51,000 crore</strong> foregone in three years. Spread across all tax heads: GST, petroleum VAT, excise, stamp duty.</p>
+          <p>SoTR/GSDP fell from 5.93% to <strong>5.45%</strong> — lowest in the state's history and the steepest decline among benchmarked states. Roughly <strong>₹51,000 crore</strong> foregone in three years. Spread across GST, petroleum VAT, excise, stamp duty.</p>
           <div class="finding-metric">
             <span class="fm-val">₹51,000 Cr</span>
             <span class="fm-label">revenue foregone since 2022-23 peak</span>
           </div>
         </article>
 
-        <article class="finding-card" data-finding="5">
+        <article class="finding-card">
           <div class="finding-num">05</div>
           <div class="finding-bar" style="--accent:#2C3E50"></div>
           <h3>Committed expenditure squeezes development</h3>
-          <p>Salaries, pensions, and interest rose to <strong>64%</strong> of revenue receipts — well above the under-50% peer benchmark. Once inflexible obligations are added, <strong>~87%</strong> of revenue is pre-committed before the budget exercise even begins.</p>
+          <p>Salaries, pensions, and interest rose to <strong>64%</strong> of revenue receipts — well above the under-50% peer benchmark. Once inflexible obligations are added, <strong>~87%</strong> of revenue is pre-committed before the budget exercise begins.</p>
           <div class="finding-metric">
             <span class="fm-val">11.8%</span>
             <span class="fm-label">capital expenditure share — lowest among peers</span>
           </div>
         </article>
 
-        <article class="finding-card" data-finding="6">
+        <article class="finding-card">
           <div class="finding-num">06</div>
           <div class="finding-bar" style="--accent:#1A5276"></div>
           <h3>Contingent liabilities — the hidden half</h3>
@@ -231,12 +259,101 @@
     </div>
   </section>
 
-  <!-- DATA CHARTS -->
+  <!-- ===== TAMIL ANALYSIS SECTION ===== -->
+  <section class="section tamil-section" id="tamil">
+    <div class="container">
+      <div class="section-eyebrow">தமிழில் பகுப்பாய்வு · Analysis in Tamil</div>
+      <h2 class="section-title tamil-h2">வெள்ளை அறிக்கை — முக்கிய கண்டுபிடிப்புகள்</h2>
+      <p class="section-desc">தமிழ்நாடு நிதி மேலாண்மை குறித்த வெள்ளை அறிக்கையின் (ஜூன் 2026) முக்கிய கண்டுபிடிப்புகள் தமிழில்.</p>
+
+      <!-- AI Notice in Tamil section -->
+      <div class="ai-note-tamil">
+        <div class="ai-note-icon">🤖</div>
+        <div class="ai-note-body">
+          <strong>AI உதவியுடன் தயாரிக்கப்பட்டது (Claude AI — Anthropic)</strong><br />
+          இந்த தமிழ் சுருக்கம் Claude AI மூலம் தயாரிக்கப்பட்டது. AI தவறுகள் செய்யலாம் — அனைத்து புள்ளிவிவரங்களையும்
+          <a href="TN_White_Paper_English-2026.pdf" target="_blank">அசல் வெள்ளை அறிக்கை PDF</a> யுடன் சரிபார்க்கவும்.
+          <em>AI can make mistakes — please verify all data against the original White Paper.</em>
+        </div>
+      </div>
+
+      <div class="tamil-grid">
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 01</div>
+          <h3 class="tamil-card-h">கடன் இரட்டிப்பாகியுள்ளது</h3>
+          <p>2020-21 இல் ₹5.13 லட்சம் கோடியாக இருந்த நிலுவை கடன், 2025-26 இல் <strong>₹10 லட்சம் கோடியை</strong> தாண்டியுள்ளது. ஐந்து ஆண்டுகளில் 14.3% CAGR வளர்ச்சி — GSDP வளர்ச்சியை விட வேகமாக. தலா கடன் ₹1,28,934.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">28.3%</span>
+            <span class="ts-label">GSDP யில் கடன் விகிதம் — சமீபத்திய வரலாற்றில் அதிகபட்சம்</span>
+          </div>
+        </div>
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 02</div>
+          <h3 class="tamil-card-h">வட்டி > மூலதன செலவு</h3>
+          <p>ஆண்டு வட்டி செலவு <strong>₹67,050 கோடியாக</strong> உயர்ந்துள்ளது — மொத்த வருவாய் வரவுகளில் 22.8%. வட்டி : மூலதன செலவு விகிதம் இப்போது 1.32:1. எதிர்காலத்திற்கான சொத்துக்களை உருவாக்குவதை விட கடனை திரும்பச் செலுத்துவதில் அதிகம் செலவிடப்படுகிறது.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">34.8%</span>
+            <span class="ts-label">சொந்த வரி வருவாயில் வட்டிக்காக செலவிடப்படுவது</span>
+          </div>
+        </div>
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 03</div>
+          <h3 class="tamil-card-h">வருவாய் பற்றாக்குறை — கட்டமைப்பு ரீதியானது</h3>
+          <p>2025-26 வருவாய் பற்றாக்குறை <strong>₹78,324 கோடி</strong> — இதுவரை பதிவான அதிகபட்சம், கோவிட் ஆண்டையும் தாண்டியது. 2013-14 முதல் ஒவ்வொரு ஆண்டும் பற்றாக்குறை உள்ளது: சொத்துக்கள் உருவாக்காமல் நடப்பு செலவுகளுக்காக கடன் வாங்குகிறது.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">2.5 மடங்கு</span>
+            <span class="ts-label">கர்நாடகா / மகாராஷ்டிராவுடன் ஒப்பிட்டால் TN பற்றாக்குறை</span>
+          </div>
+        </div>
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 04</div>
+          <h3 class="tamil-card-h">சொந்த வரி வருவாய் வீழ்ச்சி</h3>
+          <p>GSDP யில் SoTR 5.93% இலிருந்து <strong>5.45%</strong> ஆக குறைந்துள்ளது — மாநில வரலாற்றில் மிகக்குறைந்த அளவு. கடந்த மூன்று ஆண்டுகளில் சுமார் <strong>₹51,000 கோடி</strong> வருவாய் இழப்பு. GST, பெட்ரோல் VAT, மாநில கலால், பதிவு கட்டணம் என அனைத்து வரி தலைகளிலும் வீழ்ச்சி.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">₹51,000 கோடி</span>
+            <span class="ts-label">2022-23 உச்சத்திற்குப் பின் இழந்த வருவாய்</span>
+          </div>
+        </div>
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 05</div>
+          <h3 class="tamil-card-h">நிர்ணயிக்கப்பட்ட செலவு — வளர்ச்சிக்கு இடமில்லை</h3>
+          <p>சம்பளம், ஓய்வூதியம், வட்டி ஆகியவை வருவாய் வரவுகளில் <strong>64%</strong> ஐ எட்டியுள்ளன — சமகால மாநிலங்கள் 50% க்கும் கீழ் வைத்திருக்கும்போது. நெகிழாத கடமைகளை சேர்த்தால் <strong>87%</strong> வரவு பட்ஜெட் தொடங்குவதற்கு முன்பே ஒதுக்கப்பட்டுவிடுகிறது.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">11.8%</span>
+            <span class="ts-label">மூலதன செலவு பங்கு — சமகால மாநிலங்களில் குறைவானது</span>
+          </div>
+        </div>
+
+        <div class="tamil-card">
+          <div class="tamil-num">கண்டுபிடிப்பு 06</div>
+          <h3 class="tamil-card-h">மறைந்திருக்கும் கடன்கள்</h3>
+          <p>அரசு உத்தரவாதங்கள் 3 மடங்காக உயர்ந்து ₹1,79,782 கோடியாகியுள்ளன. PSU கடன்கள் (மின்சாரம், போக்குவரத்து, பொது விநியோகம்): ₹3.18 லட்சம் கோடி. மின்சார துறை திரட்டிய நஷ்டம் மட்டும்: ₹1.82 லட்சம் கோடி.</p>
+          <div class="tamil-stat">
+            <span class="ts-val">₹13.18 லட்சம் கோடி</span>
+            <span class="ts-label">நேரடி + மறைமுக மொத்த நிதி வெளிப்பாடு</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Thirukkural callout -->
+      <blockquote class="thirukkural tamil-kural">
+        <p class="kural-tamil">"மிகினும் குறையினும் நோய்செய்யும் நூலே — வளிமுதலா எண்ணிய மூன்று"</p>
+        <p class="kural-english">"In excess or in deficit, imbalance breeds affliction." — Thirukkural 941</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== DATA CHARTS ===== -->
   <section class="section data-section" id="data">
     <div class="container">
       <div class="section-eyebrow">Numbers</div>
       <h2 class="section-title">The data in detail</h2>
-
       <div class="charts-grid">
 
         <div class="chart-card">
@@ -251,7 +368,7 @@
           <h3 class="chart-title">Debt/GSDP — peer comparison (%)</h3>
           <p class="chart-sub">2025-26 Revised Estimates</p>
           <div class="chart-wrap">
-            <canvas id="peerChart" role="img" aria-label="Horizontal bar chart comparing debt to GSDP ratio: Tamil Nadu 28.3%, Karnataka 23.4%, Maharashtra 19.7%, Gujarat 17.6%">Tamil Nadu has the highest debt to GSDP ratio among peers at 28.3%.</canvas>
+            <canvas id="peerChart" role="img" aria-label="Horizontal bar chart: Tamil Nadu 28.3%, Karnataka 23.4%, Maharashtra 19.7%, Gujarat 17.6%">Tamil Nadu has the highest debt to GSDP ratio at 28.3%.</canvas>
           </div>
         </div>
 
@@ -259,7 +376,7 @@
           <h3 class="chart-title">Revenue deficit trend (₹ crore)</h3>
           <p class="chart-sub">2020-21 to 2025-26</p>
           <div class="chart-wrap">
-            <canvas id="deficitChart" role="img" aria-label="Line chart showing revenue deficit rising from 51,602 crore in 2020-21 to record 78,324 crore in 2025-26">Revenue deficit reached a historic high of ₹78,324 crore in 2025-26.</canvas>
+            <canvas id="deficitChart" role="img" aria-label="Line chart: revenue deficit rising to record 78,324 crore in 2025-26">Revenue deficit reached a historic high of ₹78,324 crore in 2025-26.</canvas>
           </div>
         </div>
 
@@ -267,7 +384,7 @@
           <h3 class="chart-title">SoTR / GSDP — own-tax effort (%)</h3>
           <p class="chart-sub">Tamil Nadu vs peer states 2025-26</p>
           <div class="chart-wrap">
-            <canvas id="sotrChart" role="img" aria-label="Bar chart comparing State Own Tax Revenue as percentage of GSDP across states">Tamil Nadu's own-tax effort has fallen to its lowest historical level.</canvas>
+            <canvas id="sotrChart" role="img" aria-label="Bar chart: Tamil Nadu own-tax effort lowest among peers">Tamil Nadu's own-tax effort has fallen to its lowest historical level.</canvas>
           </div>
         </div>
 
@@ -275,7 +392,7 @@
     </div>
   </section>
 
-  <!-- KEY TERMS -->
+  <!-- ===== GLOSSARY ===== -->
   <section class="section terms-section" id="terms">
     <div class="container">
       <div class="section-eyebrow">Glossary</div>
@@ -293,52 +410,73 @@
         </div>
         <div class="term-card">
           <div class="term-abbr">Revenue Deficit</div>
-          <div class="term-full">Current spending > current income</div>
-          <p>When a government's revenue expenditure exceeds its revenue receipts. It means the state is <em>borrowing to pay its own running costs</em> — not to build assets. The most dangerous form of deficit.</p>
+          <div class="term-full">Current spending &gt; current income</div>
+          <p>When revenue expenditure exceeds revenue receipts — the state is borrowing to pay its own running costs, not to build assets. The most dangerous form of deficit.</p>
         </div>
         <div class="term-card">
           <div class="term-abbr">Fiscal Deficit</div>
           <div class="term-full">Total gap between spending and receipts</div>
-          <p>All expenditure minus all receipts excluding borrowings. The FRBM law caps this at 3% of GSDP. Tamil Nadu has breached this every year in the review window, reaching 3.77% in 2025-26.</p>
+          <p>All expenditure minus all receipts excluding borrowings. FRBM caps this at 3% of GSDP. Tamil Nadu has breached this every year, reaching 3.77% in 2025-26.</p>
         </div>
         <div class="term-card">
           <div class="term-abbr">Committed Exp.</div>
           <div class="term-full">Non-discretionary mandatory spending</div>
-          <p>Salaries, pensions, and interest payments. Legally non-negotiable. At 64% of revenue receipts, these leave very little room for new programmes or counter-cyclical investment.</p>
+          <p>Salaries, pensions, and interest payments. Legally non-negotiable. At 64% of revenue receipts, leaving very little room for new programmes or investment.</p>
         </div>
         <div class="term-card">
           <div class="term-abbr">Contingent Liability</div>
           <div class="term-full">Off-balance-sheet fiscal risk</div>
-          <p>Government guarantees issued to state PSUs (power, transport, civil supplies). If the PSU defaults, the state must pay. These don't appear in headline debt figures but represent real exposure.</p>
+          <p>Government guarantees on PSU borrowings. If the PSU defaults, the state must pay. Don't appear in headline debt but represent real exposure.</p>
         </div>
         <div class="term-card">
           <div class="term-abbr">Capex</div>
           <div class="term-full">Capital Expenditure</div>
-          <p>Spending on infrastructure, assets, and investments that create future value. Being squeezed out by committed expenditure. Tamil Nadu's capex share (11.8% of total spending) is the lowest among peer states.</p>
+          <p>Spending on infrastructure and assets that create future value. Being squeezed out by committed expenditure. Tamil Nadu's capex share (11.8%) is lowest among peers.</p>
         </div>
         <div class="term-card">
           <div class="term-abbr">FRBM / TNFRA</div>
           <div class="term-full">Fiscal Responsibility law</div>
-          <p>Tamil Nadu Fiscal Responsibility Act 2003. Sets binding fiscal targets. The revenue-deficit elimination target has been amended repeatedly — from 2007-08 to now 2026-27 — as each deadline was about to be breached.</p>
+          <p>Tamil Nadu Fiscal Responsibility Act 2003. Revenue-deficit elimination target has been amended repeatedly — from 2007-08 to now 2026-27 — as each deadline was about to be breached.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT / AUTHOR -->
+  <!-- ===== ABOUT / AUTHOR ===== -->
   <section class="section about-section" id="about">
     <div class="container">
       <div class="about-grid">
         <div class="about-photo-wrap">
-          <img src="author-photo.jpeg" alt="Researcher building this website" class="about-photo" loading="lazy" />
+          <img src="author-photo.jpeg" alt="Researcher and author building this website" class="about-photo" loading="lazy" />
           <div class="about-photo-caption">Building this analysis</div>
         </div>
         <div class="about-text">
           <div class="section-eyebrow">About this site</div>
           <h2 class="about-title">Understanding Tamil Nadu's fiscal future</h2>
           <p>This website presents the key findings of the Tamil Nadu White Paper on Fiscal Management (June 2026) in an accessible, interactive format. The White Paper was published by the Finance Department, Government of Tamil Nadu.</p>
-          <p>The data visualisations and structured breakdown on this site are designed to make the 121-page document navigable for citizens, researchers, journalists, and policymakers who want to understand what is at stake in Tamil Nadu's public finances.</p>
-          <p>All figures are drawn from publicly verifiable sources: Tamil Nadu Budget documents, CAG reports, Reserve Bank of India publications, and MoSPI GSDP data.</p>
+          <p>The data visualisations and structured breakdown on this site are designed to make the 121-page document navigable for citizens, researchers, journalists, and policymakers.</p>
+          <p>All figures are drawn from publicly verifiable sources: Tamil Nadu Budget documents, CAG reports, Reserve Bank of India, and MoSPI GSDP data.</p>
+
+          <!-- AI Attribution block -->
+          <div class="ai-attribution">
+            <div class="ai-attr-header">
+              <span class="ai-attr-badge">🤖 AI-Assisted</span>
+              <span class="ai-attr-title">Built with Claude AI (Anthropic)</span>
+            </div>
+            <p class="ai-attr-body">
+              This website — including its structure, analysis summaries, Tamil translations, and data visualisations — was researched and built with the assistance of <strong>Claude AI</strong>, developed by Anthropic.
+              The Tamil language summaries were generated with AI support and reviewed by the author.
+            </p>
+            <div class="ai-warning">
+              <span class="ai-warn-icon">⚠️</span>
+              <span>
+                <strong>Important:</strong> AI systems can make mistakes, misinterpret data, or produce errors in translation. All figures, claims, and Tamil text on this site should be independently verified against the
+                <a href="TN_White_Paper_English-2026.pdf" target="_blank" class="ai-warn-link">original White Paper PDF</a>
+                before citing or sharing. Do not rely solely on this website for policy or academic purposes.
+              </span>
+            </div>
+          </div>
+
           <div class="about-quote">
             <span class="aq-kural">"மிகினும் குறையினும் நோய்செய்யும் — நூலே வளிமுதலா எண்ணிய மூன்று"</span>
             <span class="aq-attr">In excess or in deficit, imbalance breeds affliction. — Thirukkural 941</span>
@@ -349,7 +487,7 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
@@ -363,6 +501,7 @@
         <div class="footer-links">
           <a href="#overview">Overview</a>
           <a href="#findings">Findings</a>
+          <a href="#tamil">தமிழில்</a>
           <a href="#data">Data</a>
           <a href="#terms">Glossary</a>
           <a href="TN_White_Paper_English-2026.pdf" target="_blank">PDF</a>
@@ -370,6 +509,7 @@
       </div>
       <div class="footer-bottom">
         <p>Data sourced from Tamil Nadu Budget documents, CAG of India, Reserve Bank of India, and MoSPI. All figures are pre-actuals for 2025-26 pending finalisation by the Accountant General.</p>
+        <p class="footer-ai">🤖 Analysis assisted by <strong>Claude AI</strong> (Anthropic) · AI can make mistakes — verify all data against the <a href="TN_White_Paper_English-2026.pdf" target="_blank">source PDF</a></p>
         <p class="footer-copy">© 2026 · Built to promote fiscal transparency</p>
       </div>
     </div>
