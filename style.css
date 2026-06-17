@@ -235,6 +235,27 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.15em;
   animation: bounce 2s ease-in-out infinite;
 }
+.hero-byline {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  max-width: 420px;
+}
+.hero-byline-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--gold);
+  flex-shrink: 0;
+}
+.hero-byline-text { display: flex; flex-direction: column; }
+.hero-byline-name { font-size: 0.85rem; font-weight: 600; color: var(--white); }
+.hero-byline-role { font-size: 0.78rem; color: rgba(255,255,255,0.55); margin-top: 2px; }
 @keyframes bounce {
   0%,100% { transform: translateX(-50%) translateY(0); }
   50%      { transform: translateX(-50%) translateY(6px); }
@@ -553,6 +574,7 @@ a { color: inherit; text-decoration: none; }
   .section { padding: 64px 20px; }
   .findings-grid { grid-template-columns: 1fr; }
   .hero-stats { flex-direction: column; gap: 20px; }
+  .hero-byline { margin-top: 32px; padding-top: 20px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
