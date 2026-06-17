@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/tn-fiscal-whitepaper-2026/sitemap.xml
+Sitemap: https://maha0001.github.io/tn-fiscal-whitepaper-2026/sitemap.xml

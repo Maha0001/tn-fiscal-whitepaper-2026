@@ -1,8 +1,8 @@
 # TN Fiscal White Paper 2026
 
-[![Deploy to GitHub Pages](https://github.com/yourusername/tn-fiscal-whitepaper-2026/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/tn-fiscal-whitepaper-2026/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/maha0001/tn-fiscal-whitepaper-2026/actions/workflows/deploy.yml/badge.svg)](https://github.com/maha0001/tn-fiscal-whitepaper-2026/actions/workflows/deploy.yml)
 
-**Live site:** https://yourusername.github.io/tn-fiscal-whitepaper-2026/
+**Live site:** https://maha0001.github.io/tn-fiscal-whitepaper-2026/
 
 An interactive, SEO-optimised web presentation of the **Tamil Nadu White Paper on Fiscal Management (June 2026)** published by the Finance Department, Government of Tamil Nadu.
 
@@ -41,7 +41,7 @@ This site presents the six key findings of the 121-page White Paper in an access
 ### Manual
 
 ```bash
-git clone https://github.com/yourusername/tn-fiscal-whitepaper-2026.git
+git clone https://github.com/maha0001/tn-fiscal-whitepaper-2026.git
 cd tn-fiscal-whitepaper-2026
 # Open index.html in a browser — no build step needed
 ```
@@ -58,9 +58,9 @@ cd tn-fiscal-whitepaper-2026
 ## Google Search Console Setup
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add property → URL prefix → `https://yourusername.github.io/tn-fiscal-whitepaper-2026/`
+2. Add property → URL prefix → `https://maha0001.github.io/tn-fiscal-whitepaper-2026/`
 3. Verify via HTML tag — add the `<meta name="google-site-verification" ...>` tag to `<head>` in `index.html`
-4. Submit sitemap: `https://yourusername.github.io/tn-fiscal-whitepaper-2026/sitemap.xml`
+4. Submit sitemap: `https://maha0001.github.io/tn-fiscal-whitepaper-2026/sitemap.xml`
 
 ## Data sources
 
